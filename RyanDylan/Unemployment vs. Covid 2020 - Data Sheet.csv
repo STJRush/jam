@@ -1,0 +1,17 @@
+Month,No. of Unemployed,Unemployment Rate,Accumulate Covid Cases,Per Month Covid Cases
+January,120200,4.8,0,0
+February,120100,4.8,1,1
+March,136600,5.4,3235,3234
+April,132900,5.4,20605,17370
+May,139299,5.6,24922,4317
+June,131200,5.3,25466,544
+July,114600,5,26065,599
+August,121200,5.2,28811,2746
+September,126200,5.4,36155,7344
+October,180500,7.3,61456,25301
+November,186900,7.5,72544,11088
+December,179400,7.2,91779,19235
+,,,,
+Sources...,,,,
+https://www.worldometers.info/coronavirus/country/ireland/,,,,
+https://www.cso.ie/en/statistics/labourmarket/archive/releasearchive2020/,,,,

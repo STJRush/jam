@@ -60,7 +60,7 @@ yValuesList = []
 ## make a for loop to do this for all x values in range row_count
 
 for i in range(row_count):  # stop at the end of the last row
-    valu = dataListed[i][3]  # [0][1] is the first y point. [1][1] is next down etc
+    valu = dataListed[i][2]  # [0][1] is the first y point. [1][1] is next down etc
     cleanyVal = clean_stuff(valu)  # send it to the cleaners
     yValuesList.append(cleanyVal)  # take it back and add it to our final yValuesList
 
@@ -68,7 +68,7 @@ print(yValuesList)
 
 zValuesList = []
 for i in range(row_count):  # stop at the end of the last row
-    valu = dataListed[i][3]  # [0][1] is the first y point. [1][1] is next down etc
+    valu = dataListed[i][2]  # [0][1] is the first y point. [1][1] is next down etc
     cleanyVal = clean_stuff(valu)  # send it to the cleaners
     zValuesList.append(cleanyVal)  # take it back and add it to our final yValuesList
 
@@ -101,7 +101,7 @@ f.close()
 f = open("cleaned.csv", newline='')
 reader = csv.reader(f)
 # makes a list from the first and third columns
-dataListedSeriesB = [[float(column[2]), float(column[3])] for column in reader]
+dataListedSeriesB = [[float(column[0]), float(column[2])] for column in reader]
 f.close()
 
 # you have to close the file between reading each series, no idea why.
@@ -112,11 +112,11 @@ f.close()
 disChart = pygal.XY(stroke=False)
 
 # chart title
-disChart.title = 'Correlation'
+disChart.title = 'Correlation (The large numbers have all been divided by 100,000)\n(Small Decimals have been multiplied by 100,000)'
 
 # disChart.add('Series Name', [lists of data points])
 disChart.add('% of World Population', dataListedSeriesA)
-disChart.add('% of Actors', dataListedSeriesB)
+disChart.add('Actors in that percentage', dataListedSeriesB)
 
 # save top a vector graphics file
 disChart.render_to_file('chart.svg')

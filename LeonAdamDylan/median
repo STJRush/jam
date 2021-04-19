@@ -2,10 +2,10 @@
     # median of elements
   
     # list of elements to calculate median
-    n_num = [1, 2, 3, 4, 5]
+    
     n = len(n_num)
     n_num.sort()
-  
+    n_num = [55, 128, 95, 136, 126, 113, 135]
     if n % 2 == 0:
        median1 = n_num[n//2]
        median2 = n_num[n//2 - 1]

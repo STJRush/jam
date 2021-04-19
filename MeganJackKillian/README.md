@@ -1,4 +1,6 @@
 CHECK LIST.
 jack figure out how to get the range in a csv file 
 killian is graphing the csv file 
+what csv file
+
     

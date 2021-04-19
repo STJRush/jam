@@ -5,9 +5,9 @@ Adam
 Stephen
 
 <li>
-  <p>Graph</p>
-  <p>Mean</p>
-  <p>Mode</p>
-  <p>Range</p>
-  <p>Median</p>
+  <p>Graph = Not Done</p>
+  <p>Mean = Not Done</p>
+  <p>Mode = Not Done</p>
+  <p>Range = Not Done</p>
+  <p>Median = Not Done</p>
  </li>

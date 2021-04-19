@@ -9,14 +9,14 @@ import csv
 # REMEMBER: column[0] is the first column, column[1] is the second etc.
 
 # Opens the csv
-f = open("myData.csv", newline = '')
+f = open("Clean Data.csv", newline = '')
 reader = csv.reader(f)
 # Makes a list from the first and second columns
 dataListedSeriesA = [[int(column[0]), int(column[1])] for column in reader]
 f.close()
 
 # Repeat for Series B
-f = open("myData.csv", newline = '')
+f = open("Clean Data.csv", newline = '')
 reader = csv.reader(f)
 dataListedSeriesB = [[int(column[0]), int(column[2])] for column in reader]
 f.close()
@@ -28,14 +28,14 @@ f.close()
 disChart = pygal.XY(stroke=False)
 
 # Chart title
-disChart.title = 'Correlation'
+disChart.title = 'Unemployment vs. Covid in Ireland'
 
 # disChart.add('Series Name', [lists of data points])
-disChart.add('A', dataListedSeriesA)
-disChart.add('B', dataListedSeriesB)
+disChart.add('Covid Cases', dataListedSeriesA)
+disChart.add('Total Unemployed', dataListedSeriesB)
 
 # Save top a vector graphics file
-disChart.render_to_file('chart.svg')
+disChart.render_to_file('Graphed Data.svg')
 
 # Show in your browser
 disChart.render_in_browser()

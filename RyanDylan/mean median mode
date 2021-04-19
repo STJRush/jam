@@ -1,4 +1,4 @@
-#code for mean median and mode 
+#example code for mean median and mode 
 #mean
 
 n_num = [1, 2, 3, 4, 5]

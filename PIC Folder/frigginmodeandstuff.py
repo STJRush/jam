@@ -1,3 +1,1 @@
-import statistics
-
-statistics.mode([784400000,156880000,5490800000,392200000,392200000,235320000,78440000])
+connor put the thing here

@@ -1,0 +1,47 @@
+#mean of unemployed people
+n_num = [120200, 120100, 136600, 132900, 139299, 131200, 114600, 121200, 126200, 180500, 186900, 179400 ]
+n = len(n_num)
+  
+get_sum = sum(n_num)
+mean = get_sum / n
+  
+print("Mean / Average is: " + str(mean))
+
+Mean / Average is: 140758.25
+-----------------------------------------------
+#mean of unemployment rate
+
+n_num = [4.8, 4.8, 5.4, 5.4, 5.6, 5.3, 5, 5.2, 5.4, 7.3, 7.5, 7.2 ]
+n = len(n_num)
+  
+get_sum = sum(n_num)
+mean = get_sum / n
+  
+print("Mean / Average is: " + str(mean))
+
+Mean / Average is: 5.741666666666666
+-----------------------------------------------
+#mean of accumulate covid cases
+
+n_num = [0, 1, 3235, 20605, 24922, 25466, 26065, 28811, 36155, 61456, 72544, 91779 ]
+n = len(n_num)
+  
+get_sum = sum(n_num)
+mean = get_sum / n
+  
+print("Mean / Average is: " + str(mean))
+
+Mean / Average is: 32586.583333333332
+
+---------------------------------------------------
+#Mean of per month covid cases
+
+n_num = [0, 1, 3234, 17370, 4317, 544, 599, 2746, 7344, 25301, 11088, 19235 ]
+n = len(n_num)
+  
+get_sum = sum(n_num)
+mean = get_sum / n
+  
+print("Mean / Average is: " + str(mean))
+
+Mean / Average is: 7648.25

@@ -5,7 +5,7 @@ Adam
 Stephen
 
 <li>
-  <p>Graph = Doing(Abi)</p>
+  <p>Graph = Done(Steve)</p>
   <p>Mean = Not Done</p>
   <p>Mode = Not Done</p>
   <p>Range = Not Done</p>

@@ -12,4 +12,4 @@ while i < len(y) :
     d1 = dict(zip(y, L1))
     d2={k for (k,v) in d1.items() if v == max(L1) }
  
-print("Mode(s) is/are :" + str(d2))
+print("Mode(s) is :" + str(d2))

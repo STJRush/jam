@@ -14,3 +14,5 @@ print("Mode(s) is/are :" + str(d2))
 
 Mode(s) is/are :{5.4}
 --------------------------------------------------------------------
+
+#issue: programe struggling to run all the numbers and get just one mode value apart from the enemployment rate.

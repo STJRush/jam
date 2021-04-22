@@ -5,3 +5,6 @@ get_sum = sum(n_num)
 mean = get_sum / n
  
 print("Mean / Average is: " + str(mean))
+
+
+#Mean / Average is: 339906666.6666667

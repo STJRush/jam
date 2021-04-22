@@ -12,21 +12,21 @@ import csv
 f = open("myDatas.csv", newline = '')
 reader = csv.reader(f)
 #makes a list from the first and second columns
-dataListedSeriesA = [[int(column[0]), int(column[1])] for column in reader]
+dataListedSeriesA = [[int(column[0]), int(column[0])] for column in reader]
 f.close()
 
 #opens the csv
 f = open("myDatas.csv", newline = '')
 reader = csv.reader(f)
 #makes a list from the first and third columns
-dataListedSeriesB = [[int(column[0]), int(column[2])] for column in reader]
+dataListedSeriesB = [[int(column[0]), int(column[1])] for column in reader]
 f.close()
 
 #you have to close the file between reading each series, no idea why.
 f = open("myDatas.csv", newline = '')
 reader = csv.reader(f)
 #makes a list from the first and third columns
-dataListedSeriesC = [[int(column[0]), int(column[3])] for column in reader]
+dataListedSeriesC = [[int(column[0]), int(column[2])] for column in reader]
 f.close()
 
 #Graphing the series using pygal

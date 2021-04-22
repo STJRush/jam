@@ -1,7 +1,7 @@
 import statistics
 import csv
 
-f = open("TempCovid - Sheet1.csv", newline = '')
+f = open("tempcovData.csv", newline = '')
 #opens the csv
 reader = csv.reader(f)
 next(reader, None)

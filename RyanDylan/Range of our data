@@ -1,6 +1,10 @@
 Range of no. of unemployed
 
-186900 - 114600 = 72300
+import statistics
+
+list = (120200, 120100, 136600, 132900, 139299, 131200, 114600, 121200, 126200, 180500, 186900,179400)
+
+print(max(list) - min(list)) = 72300
 ------------------------------------
 Range of unemployment rate
 

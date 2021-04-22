@@ -5,9 +5,9 @@ Adam
 Stephen
 
 <li>
-  <p>Graph = Kinda(Steve)</p>
-  <p>Mean = Not Done</p>
-  <p>Mode = Not Done</p>
-  <p>Range = Not Done</p>
-  <p>Median = Not Done</p>
+  <p>Graph = Done(Steve)</p>
+  <p>Mean = In Progress</p>
+  <p>Mode = In Progress</p>
+  <p>Range = In Progress</p>
+  <p>Median = In Progress</p>
  </li>

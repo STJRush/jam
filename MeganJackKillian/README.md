@@ -1,5 +1,2 @@
 CHECK LIST.
-killian did you find the data?
-
-
-    
+none of the range codes ive found are working

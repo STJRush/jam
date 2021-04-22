@@ -1,0 +1,5 @@
+import statistics
+
+list = (134.56,112.68,125.54,136.45,94.5,127.76,55.19)
+
+print(max(list) - min(list))

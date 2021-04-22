@@ -24,4 +24,8 @@ print(max(list) - min(list)) = 91779
 -----------------------
 Range of per month cases
 
-25301 - 0 = 25301
+import statistics
+
+list = (0, 1, 3234, 17370, 4317, 544, 599, 2746, 7344, 25301, 11088, 19235)
+
+print(max(list) - min(list)) = 25301

@@ -3,3 +3,5 @@ try:
     statistics.mode([55, 128, 95, 136, 126, 113, 135])
 except:
     print("there is no mode")
+
+#this code finds the mode of the download speed

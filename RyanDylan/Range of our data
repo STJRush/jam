@@ -16,7 +16,11 @@ print(max(list) - min(list)) = 2.7
 -------------------------------------
 Range of accumulate covid cases 
 
-91779 - 0 = 91779
+import statistics
+
+list = (0, 1, 3235, 20605, 24922, 25466, 26065, 28811, 36155, 61456, 72544, 91779)
+
+print(max(list) - min(list)) = 91779
 -----------------------
 Range of per month cases
 

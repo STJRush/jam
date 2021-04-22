@@ -5,7 +5,6 @@ f = open("TempCovid - Sheet1.csv", newline = '')
 #opens the csv
 reader = csv.reader(f)
 next(reader, None)
-#skips titles
 
 dataListedSeriesA = [[float(column[1]), float(column[2])] for column in reader]
 #makes a list from the second and third columns
@@ -14,14 +13,14 @@ f.close()
 
 disChart = pygal.XY(stroke=False)
 
-disChart.title = 'Correlation'
+disChart.title = 'Temperature to Covid Correlation'
 #graphtitle
 
 #disChart.add('Series Name', [lists of data points])
-disChart.add('A', dataListedSeriesA)
+disChart.add('Covid', dataListedSeriesA)
 
-#save top a vector graphics file
 disChart.render_to_file('chart.svg')
+#creates graph file
 
-#show in your bcolumnser
 disChart.render_in_browser()
+#opens graph in browser

@@ -5,7 +5,8 @@ f = open("TempCovid - Sheet1.csv", newline = '')
 #opens the csv
 reader = csv.reader(f)
 next(reader, None)
-#makes a list from the second and third columns
+#skips titles
+
 dataListedSeriesA = [[float(column[1]), float(column[2])] for column in reader]
 #makes a list from the second and third columns
 f.close()

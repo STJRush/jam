@@ -4,6 +4,6 @@ Mean = Not Done
 
 Mode = Not Done
 
-Range = Not Done
+Range = Not Done 
 
-Median = Not Done
+Median = Not Done 

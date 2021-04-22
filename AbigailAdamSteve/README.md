@@ -9,4 +9,5 @@ Stephen
   <p>Mean = Done(Adam)</p>
   <p>Median = Done(Abigail)</p>
   <p>Mode = In Progress(Abigail)</p>
+  <p>Range = In Progress(Stephen)</p>
  </li>

@@ -1,0 +1,16 @@
+#Mode of the unemployment rate
+
+y= [4.8, 4.8, 5.4, 5.4, 5.6, 5.3, 5, 5.2, 5.4, 7.3, 7.5, 7.2]
+y.sort()
+L1=[]
+i = 0
+while i < len(y) :
+    L1.append(y.count(y[i]))
+    i += 1
+    d1 = dict(zip(y, L1))
+    d2={k for (k,v) in d1.items() if v == max(L1) }
+  
+print("Mode(s) is/are :" + str(d2))
+
+Mode(s) is/are :{5.4}
+--------------------------------------------------------------------

@@ -1,0 +1,5 @@
+import statistics
+
+list = [55.19,127.76,94.5,136.45,125.54,112.68,134.58]
+
+print(statistics.mean(list))

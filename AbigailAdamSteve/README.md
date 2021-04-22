@@ -5,9 +5,9 @@ Adam
 Stephen
 
 <li>
-  <p>Graph = Done(Steve)</p>
-  <p>Mean = In Progress</p>
-  <p>Mode = In Progress</p>
-  <p>Range = In Progress</p>
+  <p>Graph = Done(Abigail)</p>
+  <p>Mean = In Progress(Adam)</p>
+  <p>Mode = In Progress(Abigail)</p>
   <p>Median = In Progress</p>
+  <p>Range = In Progress(Stephen)</p>
  </li>
